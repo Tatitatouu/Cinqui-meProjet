@@ -87,3 +87,5 @@ function changeimageright() {
 arrow_right.addEventListener("click", changeimageright);
 
 createDots();
+
+setInterval(changeimageright, 3000);
